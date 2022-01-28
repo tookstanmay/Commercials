@@ -32,7 +32,6 @@ burger.addEventListener("click", () => {
       line3.style.rotate = '-45deg';
       line3.style.width = "30px";
       line3.style.translate = '0px -9px';
-      cross = true;
 
       //hopeDiv
       hopeDiv.style.display = "none";
@@ -53,7 +52,6 @@ burger.addEventListener("click", () => {
       line3.style.rotate = '0deg';
       line3.style.width = "26px";
       line3.style.translate = '0px';
-      cross = false;
 
       //hopeDiv
       hopeDiv.style.display = "flex";
