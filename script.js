@@ -37,32 +37,40 @@ let line2 = document.getElementById('line2');
 
 let clicked = false;
 
+function burgerOn() {
+   line1.style.width = "30px";
+   line1.style.transform = "translate(0px, 9px) rotate(45deg)";
+   line1.style.backgroundColor = "red";
+
+   line2.style.width = "0px";
+   line2.style.backgroundColor = "red";
+
+   line3.style.width = "30px";
+   line3.style.backgroundColor = "red";
+
+   line3.style.transform = "translate(0px, -9px) rotate(-45deg)";
+}
+
+function burgerOff() {
+   line1.style.width = "26px";
+   line1.style.transform = "translate(0px) rotate(0deg)";
+   line1.style.backgroundColor = "white";
+
+   line2.style.width = "26px";
+   line2.style.backgroundColor = "white";
+
+   line3.style.width = "26px";
+   line3.style.transform = "translate(0px) rotate(0deg)";
+   line3.style.backgroundColor = "white";
+}
+
 burger.addEventListener("click", () => {
    if (!clicked) {
-      line1.style.width = "30px";
-      line1.style.transform = "translate(0px, 9px) rotate(45deg)";
-      line1.style.backgroundColor = "red";
-      
-      line2.style.width = "0px";
-      line2.style.backgroundColor = "red";
-      
-      line3.style.width = "30px";
-      line3.style.backgroundColor = "red";
-
-      line3.style.transform = "translate(0px, -9px) rotate(-45deg)";
+      burgerOn();
       clicked = true;
 
    } else {
-      line1.style.width = "26px";
-      line1.style.transform = "translate(0px) rotate(0deg)";
-      line1.style.backgroundColor = "white";
-
-      line2.style.width = "26px";
-      line2.style.backgroundColor = "white";
-
-      line3.style.width = "26px";
-      line3.style.transform = "translate(0px) rotate(0deg)";
-      line3.style.backgroundColor = "white";
+      burgerOff();
       clicked = false;
    }
 });
