@@ -4,9 +4,9 @@ let nav = document.getElementById("nav");
 let navContainer = document.getElementById('nav-container');
 
 //hamburger closing
-let line1 = document.getElementById("line1");
-let line3 = document.getElementById("line3");
-let line2 = document.getElementById('line2');
+const line1 = document.getElementById("line1");
+const line3 = document.getElementById("line3");
+const line2 = document.getElementById('line2');
 
 //hope
 let hopeDiv = document.getElementById("hopeDiv");
@@ -24,15 +24,15 @@ burger.addEventListener("click", () => {
       //burger-lines
       //line1
       line1.style.rotate = "45deg";
-      //line1.setAttribute('style', "rotate: 45deg !important");
-      //line1.style.width = "26px";
+      // line1.setAttribute('style', "rotate: 45deg !important");
+      line1.style.width = "30px";
       line1.style.translate = "0px 9px";
       //line2
       line2.style.width = "0px";
       //line3
       line3.style.rotate = "-45deg";
-      //line3.setAttribute('style', "rotate: -45deg !important");
-      //line3.style.width = "26px";
+      // line3.setAttribute('style', "rotate: -45deg !important");
+      line3.style.width = "30px";
       line3.style.translate = "0px -9px";
 
       //hopeDiv
@@ -46,19 +46,20 @@ burger.addEventListener("click", () => {
       //burger-lines
       //line1
       line1.style.rotate = "0deg";
-      //line1.setAttribute('style', "rotate: 0deg !important");
+      // line1.setAttribute('style', "rotate: 0deg !important");
       line1.style.translate = "0px";
-      //line1.style.width = "26px";
+      line1.style.width = "26px";
       //line2
       line2.style.width = "26px";
       //line3
       line3.style.rotate = "0deg";
-      //line3.setAttribute('style', "rotate: 0deg !important");
-      //line3.style.width = "26px";
+      // line3.setAttribute('style', "rotate: 0deg !important");
+      line3.style.width = "26px";
       line3.style.translate = "0px";
 
       //hopeDiv
       hopeDiv.style.display = "flex";
    }
 });
+
 
