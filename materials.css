@@ -1,0 +1,73 @@
+.books{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.books img, .books a{
+    margin: 4px;
+}
+.book-img{
+    height: 150px;
+    width: 110px;
+}
+#fifthSection{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book-epub{
+    text-decoration: none;
+    color: green;
+    font-family: 'Outfit';
+    border: 2px solid rgb(81, 131, 81);
+    border-radius: 4px;
+    padding: 3px;
+}
+.book-epub:hover{
+    background-color: green;
+    color: white;
+}
+.book-pdf{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Outfit';
+    border: 2px solid rgb(73, 73, 143);
+    border-radius: 4px;
+    padding: 3px;
+}
+.book-pdf:hover{
+    background-color: blue;
+    color: white;
+}
+.platform{
+    text-decoration: none;
+    font-family: 'Outfit';
+    font-size: 16px;
+    color: rgb(151, 49, 49);
+    padding: 4px 5px;
+}
+#sixthSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+.epub-platform{
+    font-family: 'Ubuntu';
+    font-weight: 600;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid pink;
+    /* width: 340px; */
+    border-radius: 10px;
+}
+/* .subtle-art{
+    margin-bottom: 39px;
+} */

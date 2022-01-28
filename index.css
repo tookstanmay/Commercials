@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: row;
+}
+#nav{
+  background-color: rgb(34, 34, 41);
+  width: 250px;
+  position: fixed;
+  height: 100vh;
+}
+#header-logo {
+  font-family: "Outfit", sans-serif;
+  color: rgb(194, 194, 194);
+  font-size: 28px;
+  padding: 20px;
+}
+
+#links-ul {
+  list-style: none;
+  margin-top: 40px;
+}
+.li-links {
+  margin: 10px 40px;
+}
+.links {
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(212, 233, 208);
+  font-weight: 600;
+  font-size: 20px;
+  -webkit-tap-highlight-color: transparent;
+}
+.links:hover {
+  color: whitesmoke;
+}
+#ul-socialmedia {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 150px;
+  margin-left: 27%;
+}
+#ul-socialmedia li {
+  margin: 5px 10px;
+}
+#ul-socialmedia li a {
+  text-decoration: none;
+  color: rgb(172, 204, 255);
+  -webkit-tap-highlight-color: transparent;
+}
+#ul-socialmedia li a:hover {
+  color: white;
+}
+#firstSection {
+  height: 400px;
+}
+
+main {
+  width: 100%;
+}
+#firstSection > img {
+  height: 400px;
+  width: 100%;
+}
+#secondSection {
+  margin-top: 15px;
+  text-align: center;
+  /* width: 100%; */
+}
+#secondSection h1 {
+  font-size: 38px;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+}
+#secondSection h2{
+  font-family: 'Ubuntu';
+}
+
+#secondSection p{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin: 20px 10px;
+    text-align: left;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  width: 100%;
+}
+#thirdSection{
+  margin: 20px;
+}
+#thirdSection p{
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#thirdSection h2{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+}
+#thirdSection h1{
+  font-family: 'Nova Flat', cursive;
+  margin: 20px 20px 20px 0px;
+}
+#mentalHealth{
+  height: 400px;
+  width: 80%;
+  box-sizing: border-box;
+  border: 4px solid rgb(59, 21, 37);
+  border-radius: 10px;
+}
+.mentalHealth-div{
+  display: flex;
+  justify-content: center;
+}
+footer{
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  text-align: center;
+}
+#copy-rights{
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+#emotions{
+  color: orange;
+}
+#failures{
+  color: rgb(71, 134, 71);
+}
+#learnings{
+  color: rgb(255, 113, 113);
+}
+
+/*legalities.html */
+#secondSection p span{  
+  color: rgb(46, 46, 255);
+}
+.terms{
+  color: rgb(0, 105, 18);
+  text-decoration: none;
+  
+}
+
+/* about.html */
+.tanmay-img-article{
+  text-align: center;
+}
+.tanmay-img{
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  border: 4px solid rgb(0, 63, 0);
+}
+
+/*index.html*/
+#burger{
+  display: none;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 9px;
+  position: fixed;
+  z-index: 3;
+}
+#burger .line{
+  width: 26px;
+  background-color: white;
+  height: 3px;
+  margin: 3px;
+  transition: 0.3s ease-in-out;
+}
+#line2{
+  transition: 0s;
+}
+
+/* hopeText */
+#hopeDiv{
+  display: none;
+}

@@ -1,0 +1,57 @@
+@media only screen and (max-width: 835px) {
+  #nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100vh !important;
+  }
+  #nav-container {
+    display: none;
+  }
+  .container {
+    margin-left: 50px;
+  }
+  #mentalHealth {
+    height: 250px !important;
+    width: 90% !important;
+  }
+  #firstSection img {
+    height: 200px !important;
+  }
+  #firstSection {
+    height: 200px !important;
+  }
+  .contact-links-div {
+    flex-direction: column !important;
+  }
+  #burger {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #ul-socialmedia {
+    margin-left: 18%;
+  }
+
+  /* hopeNavbar */
+  #hopeDiv {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 12.5px;
+    z-index: 2;
+    top: 40%;
+    transition: 0.3s ease-in-out;
+  }
+  .hopeText {
+    font-family: "Outfit";
+    font-size: 32px;
+    color: white;
+    margin: 5px 0px;
+  }
+
+  .dropdownSummary{
+    margin-left: 10px !important;
+  }
+}

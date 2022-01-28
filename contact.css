@@ -1,0 +1,44 @@
+.contact-img{
+    height: 30px;
+    width: 30px;
+}
+#fourthSection{
+    text-align: left;
+}
+.contact-links-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact-links-div div{
+    margin: 30px;
+}
+.image-link{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    /* word-spacing: 10px; */
+    width: 120px;
+}
+.image-link span{
+    padding-left: 10px;
+    display: none;
+    /* transform: translateX(-200px); */
+}
+.contact-interior-div1 , .contact-interior-div2 , .contact-interior-div3{
+    width: 120px;
+}
+.contact-interior-div1:hover .image-link>span{
+    display: inline-block;
+}
+.contact-interior-div2:hover .image-link>span{
+    display: inline-block;
+}
+.contact-interior-div3:hover .image-link>span{
+    display: inline-block;
+}
